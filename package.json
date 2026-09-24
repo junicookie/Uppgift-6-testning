@@ -1,0 +1,15 @@
+{
+  "name": "testning",
+  "version": "1.0.0",
+  "description": "Uppgift lernia testning",
+  "license": "ISC",
+  "author": "Juni Stenberg",
+  "type": "commonjs",
+  "main": "simpleJestTest.spec.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
