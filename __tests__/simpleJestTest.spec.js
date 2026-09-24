@@ -11,7 +11,4 @@ expect(bigWords(text)).toBe(expectedOutput);
 
 function bigWords(x) {
 return x.toUpperCase();
-
 };
-
-console.log(bigWords("hello, world!"));
