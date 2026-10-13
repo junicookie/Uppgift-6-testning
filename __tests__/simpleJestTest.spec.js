@@ -1,3 +1,5 @@
+const bigWords = require('../Converter/bigWords'); 
+
 describe("Beginner testing", () => {
 test("Check if a senctence is UPPERCASE", () =>{
 
@@ -8,7 +10,3 @@ expect(bigWords(text)).toBe(expectedOutput);
 
    });
 });
-
-function bigWords(x) {
-return x.toUpperCase();
-};
